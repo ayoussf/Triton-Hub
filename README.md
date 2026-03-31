@@ -6,7 +6,7 @@
     <a href="https://github.com/ayoussf/TritonTorch/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python 3.8+"></a>
     <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg" alt="PyTorch 2.0+"></a>
-    <a href="https://github.com/triton-lang/triton"><img src="https://img.shields.io/badge/Triton-Enabled-green.svg" alt="Triton"></a>
+    <a href="https://github.com/triton-lang/triton"><img src="https://img.shields.io/badge/Triton-3.0.0+-green.svg" alt="Triton 3.0.0+"></a>
 </p>
 
 <!-- --- -->
@@ -84,7 +84,7 @@ x = relu(x)
 
 ## Supported Modules
 
-All modules support both **<span style="color:green"><strong>forward</strong></span>** and **<span style="color:red"><strong>backward</strong></span>** passes for full differentiability.
+All modules support both $\small{\textbf{\color{#00FF00}{forward}}}$ and $\small{\textbf{\color{#FF0000}{backward}}}$ passes for full differentiability.
 
 > [!NOTE]
 > Some modules (e.g., Conv1d, Conv2d) are not fully optimized yet. It is still to be determined whether this is due to kernel implementation or autotuning configuration.
