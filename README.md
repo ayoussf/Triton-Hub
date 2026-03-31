@@ -84,7 +84,7 @@ x = relu(x)
 
 ## Supported Modules
 
-All modules support both $\small{\textbf{\color{#00FF00}{forward}}}$ and $\small{\textbf{\color{#FF0000}{backward}}}$ passes for full differentiability.
+All modules support both $\textbf{\color{#00FF00}{forward}}$ and $\textbf{\color{#FF0000}{backward}}$ passes for full differentiability.
 
 > [!NOTE]
 > Some modules (e.g., Conv1d, Conv2d) are not fully optimized yet. It is still to be determined whether this is due to kernel implementation or autotuning configuration.
